@@ -46,3 +46,7 @@ small{
 .text-muted{
     color:#999;
 }
+.article{
+    color: #333;
+    font-size: 17px;
+}
