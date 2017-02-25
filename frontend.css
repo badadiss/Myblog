@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #2A2F37;
+  font: 16px "Open Sans";
+  color: #FFFFFF; }
+
+.home-island {
+  width: 450px;
+  height: 120px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  .home-island h1 {
+    margin: 0;
+    display: block;
+    font-weight: 300; }
+    .home-island h1 .name {
+      margin: 0 0 10px 0;
+      display: block;
+      font-size: 30px;
+      line-height: 30px; }
+    .home-island h1 .title {
+      display: block;
+      font-size: 60px;
+      line-height: 60px; }
+
+.planet {
+  position: absolute;
+  top: 50%;
+  left: 50%; }
+  .planet.chrome {
+    width: 500px;
+    height: 500px;
+    margin: -250px 0 0 -250px;
+    transition: all 3s linear; }
+    .planet.chrome img {
+      width: 500px;
+      height: 500px;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transition: all 3s linear; }
+    .planet.chrome.start {
+      top: -20%;
+      left: -20%;
+      filter: blur(5px); }
+    .planet.chrome.end {
+      top: 50%;
+      left: 50%;
+      filter: blur(0); }
+      .planet.chrome.end img {
+        width: 50px;
+        height: 50px; }
+
+.app-support {
+  width: 500px;
+  margin: 0 auto; }
+  .app-support h1 {
+    margin: 100px 0 20px 0;
+    font-size: 60px;
+    font-weight: 300; }
+  .app-support p {
+    font-weight: 300; }
+  .app-support .success {
+    padding: 10px;
+    background: #06B344;
+    border-radius: 2px;
+    color: #FFFFFF; }
+  .app-support label {
+    margin: 0 0 5px 0;
+    display: block;
+    font-size: 18px;
+    font-weight: 300; }
+    .app-support label .error {
+      padding: 0 5px;
+      display: inline-block;
+      background: #E05A5A;
+      border-radius: 1px;
+      font-size: 12px;
+      line-height: 18px;
+      vertical-align: middle; }
+  .app-support input[type="text"], .app-support input[type="email"], .app-support input[type="submit"], .app-support select, .app-support textarea {
+    margin: 0 0 10px 0;
+    display: block;
+    outline: 0;
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 2px;
+    color: #333333; }
+  .app-support input[type="text"], .app-support input[type="email"] {
+    width: 490px;
+    height: 36px;
+    padding: 0 5px; }
+  .app-support select {
+    width: 500px;
+    height: 36px;
+    padding: 5px;
+    -webkit-appearance: none; }
+  .app-support textarea {
+    width: 490px;
+    padding: 5px;
+    resize: vertical; }
+  .app-support input[type="submit"] {
+    height: 36px;
+    padding: 0 20px; }
