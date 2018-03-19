@@ -4,10 +4,6 @@ body {
   background: #2A2F37;
   font: 16px "Open Sans";
   color: #FFFFFF; }
-.title {
-  font-size:16px;
-
-}
 
 .home-island {
   width: 450px;
@@ -29,7 +25,7 @@ body {
       line-height: 30px; }
     .home-island h1 .title {
       display: block;
-      font-size: 60px;
+      font-size: 25px;
       line-height: 60px; }
 
 .planet {
